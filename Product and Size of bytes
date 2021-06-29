@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a,b;
+    float c;
+    cout<<"Enter two numbers :";
+    cin>>a>>b;
+    c=a*b;
+    cout<<"Product ="<<c;
+
+    return 0;
+}
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   cout<<"Size of int is "<<sizeof(int)<<" bytes"<<endl;
+   cout<<"Size of float is "<<sizeof(float)<<" bytes"<<endl;
+   cout<<"Size of double is "<<sizeof(double)<<" bytes"<<endl;
+   cout<<"Size of char is "<<sizeof(char)<<" byte"<<endl;
+    return 0;
+}
